@@ -85,7 +85,7 @@ exports.notregis = (prefix, sender) => {
 	return `Hai @${sender.split("@")[0]} You are not registered in my database, Please type ${prefix}verify\n\nYou can also register by sending a verification code from this api\nhttps://api-alphabot.herokuapp.com/api/verification`
 	}
 exports.udahregis = (pushname) => {
-	return `Hai ${pushname} kamu sudah terdaftar di database`
+	return `Hai ${pushname} You are already registered`
 	}
 exports.enNum = () => {
  return `\`\`\`[ x ]\`\`\` Enter Numbers Correctly`
@@ -121,7 +121,7 @@ exports.nsfwmo= () => {
 	return `The nsfw feature has not been activated, contact the bot owner to activate it`
 	}
 exports.erorCode = () => {
- return `Kode yang anda masukkan salah silahkan cek kembali\nhttps://api-alphabot.herokuapp.com/api/verification`
+ return `The code you entered is wrong, please check again\nhttps://api-alphabot.herokuapp.com/api/verification`
  }
  exports.callOwner = () => {
  return `Contact the owner to use this feature`
