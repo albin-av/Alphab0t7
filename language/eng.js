@@ -37,10 +37,10 @@ exports.onlygcAdmin = () => {
 	return `\`\`\`[ x ]\`\`\` Group admin only`
 	}
 exports.cariCecan = () => {
-	return `\`\`\`[ ! ]\`\`\` Mencari cecan`
+	return `\`\`\`[ ! ]\`\`\` Looking for a beautiful girl`
 	}
 exports.cariCogan = () => {
-	return `\`\`\`[ ! ]\`\`\` Mencari cogan`
+	return `\`\`\`[ ! ]\`\`\` Looking for a beautiful guy`
 	}
 exports.pesanBot = () => {
 	return `\`\`\`[ x ]\`\`\` Reply to the bot message`
