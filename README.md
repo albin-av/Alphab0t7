@@ -51,7 +51,5 @@ Off in web nya
 </p>
 
 
-## ```COFFEE```
-
-- [`SAWERIA`](https://saweria.co/zeeoneofc)
+## THANKS TO ZEEONE FOR THE API
 
