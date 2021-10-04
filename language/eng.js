@@ -64,7 +64,7 @@ exports.spam = (prefix, command) => {
 	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} text|amount`
 	}
 exports.tahta = (prefix, command) => {
-	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone|ofc`
+	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone|patronum`
 	}
 exports.noteks = (prefix, command) => {
 	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone`
@@ -82,7 +82,7 @@ exports.anlinOff = () => {
 	return `\`\`\`[ ✓ ]\`\`\` Antilink Disabled`
 	}
 exports.notregis = (prefix, sender) => {
-	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
+	return `Hai @${sender.split("@")[0]} You are not registered in my database, Please type ${prefix}verify\n\nYou can also register by sending a verification code from this api\nhttps://api-alphabot.herokuapp.com/api/verification`
 	}
 exports.udahregis = (pushname) => {
 	return `Hai ${pushname} kamu sudah terdaftar di database`
