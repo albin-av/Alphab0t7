@@ -53,3 +53,5 @@ Off in web nya
 
 ## THANKS TO ZEEONE FOR THE API
 
+## 'Deploy'
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/albin-av/Alphab0t7/)
